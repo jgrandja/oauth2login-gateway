@@ -1,0 +1,9 @@
+= OpenID Connect via Spring Cloud Gateway
+
+== Run the Sample
+
+* Build the sample -> `./gradlew clean build`
+* Run UAA Server -> `./gradlew -b uaa-server/build.gradle uaa`
+* Run Gateway -> `./gradlew -b gateway/build.gradle bootRun`
+* Run Resource Server -> `./gradlew -b resource-server/build.gradle bootRun`
+* Go to `http://localhost:8080` and login to UAA using *user1/password*

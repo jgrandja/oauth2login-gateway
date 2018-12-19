@@ -1,0 +1,5 @@
+rootProject.name = 'oauth2login-gateway'
+
+include 'gateway'
+include 'resource-server'
+include 'uaa-server'
