@@ -36,6 +36,7 @@ dependencies {
 			"org.springframework.boot:spring-boot-starter-thymeleaf",
 			"org.springframework.boot:spring-boot-starter-security",
 			"org.springframework.boot:spring-boot-starter-oauth2-client",
+			"org.springframework.boot:spring-boot-starter-actuator",
 			"org.springframework.cloud:spring-cloud-starter-gateway",
 			"org.thymeleaf.extras:thymeleaf-extras-springsecurity5"
 }
